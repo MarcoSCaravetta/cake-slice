@@ -3,4 +3,4 @@ Slices any rectangular prism into n slices of equal volume and outer surface are
 
 
 ![example](./example.png)
-*Examples of "Cakes" of various side ratios cut into n slices and viewed from the top. Each slice has equal volume and equal amount of "icing" (e.g. the outer surface area of each slice is equal).*
+*"Cakes" of various side ratios cut into n slices and viewed from the top. Each slice has equal volume and equal amount of "icing" (e.g. the outer surface area of each slice is equal).*
