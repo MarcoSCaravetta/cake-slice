@@ -81,7 +81,6 @@ class CornerSlice(Slice):
 
 
 class StartCornerSlice(CornerSlice):
-
     def _make_slice(self) -> None:
         x0, y0 = self._start_coordinates
         x1, y1 = self._corner_coordinates
@@ -94,7 +93,6 @@ class StartCornerSlice(CornerSlice):
 
 
 class EndCornerSlice(CornerSlice):
-
     def _make_slice(self) -> None:
         x0, y0 = self._start_coordinates
         x1, y1 = self._corner_coordinates

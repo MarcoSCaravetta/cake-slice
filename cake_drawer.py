@@ -9,12 +9,12 @@ class CakeDrawer:
         self._figure, self._axes = matplotlib.pyplot.subplots()
 
     def plot(self, coordinates: list[list[float]]) -> None:
-        polygon: matplotlib.patches.Polygon = matplotlib.patches.Polygon(coordinates, edgecolor='k', facecolor='w')
+        polygon = matplotlib.patches.Polygon(coordinates, edgecolor='k', facecolor='w')
         self._axes.add_patch(polygon)
 
     def plot_multiple(self, multiple_coordinates: list[list[list[float]]]) -> None:
         for coordinates in multiple_coordinates:
-            polygon: matplotlib.patches.Polygon = matplotlib.patches.Polygon(coordinates, edgecolor='k', facecolor='w')
+            polygon = matplotlib.patches.Polygon(coordinates, edgecolor='k', facecolor='w')
             self._axes.add_patch(polygon)
 
     @staticmethod

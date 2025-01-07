@@ -2,7 +2,7 @@ from cake_drawer import CakeDrawer
 from cake import Cake
 
 if __name__ == '__main__':
-    num_of_cakes = 7
+    num_of_cakes= 7
     cake_drawer = CakeDrawer()
     cakes: list[list[Cake]] = [[]]*num_of_cakes
     for i in range(num_of_cakes):
