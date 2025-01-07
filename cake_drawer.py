@@ -25,7 +25,7 @@ class CakeDrawer:
         matplotlib.pyplot.ylim([y_min, y_max])
 
     @staticmethod
-    def add_text(x: float, y: float, text: str):
+    def add_text(x: float, y: float, text: str) -> None:
         matplotlib.pyplot.text(x, y, text)
 
     @staticmethod
