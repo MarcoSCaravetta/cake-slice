@@ -10,10 +10,6 @@
     <list default="true" id="0a560be8-2b38-4eb5-a811-7e2e60736e18" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cake.py" beforeDir="false" afterPath="$PROJECT_DIR$/cake.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cake_drawer.py" beforeDir="false" afterPath="$PROJECT_DIR$/cake_drawer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slice.py" beforeDir="false" afterPath="$PROJECT_DIR$/slice.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
