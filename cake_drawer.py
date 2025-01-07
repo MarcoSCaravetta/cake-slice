@@ -1,6 +1,7 @@
 import matplotlib.patches
 import matplotlib.pyplot
 
+
 class CakeDrawer:
     _figure: matplotlib.pyplot.Figure = None
     _axes: matplotlib.pyplot.Axes = None

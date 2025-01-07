@@ -30,7 +30,7 @@ class Slice:
 
     def mirror_horizontally(self, y: float) -> None:
         for i in range(self._num_of_vertices):
-            self._vertices[i][1] = 2*y - self._vertices[i][1]
+            self._vertices[i][1] = 2 * y - self._vertices[i][1]
 
     def transpose(self, x: float, y: float) -> None:
         for i in range(self._num_of_vertices):
@@ -42,7 +42,7 @@ class TriangleSlice(Slice):
     _height: float = None
     _num_of_vertices: int = 3
 
-    def __init__(self, *args, triangle_height = None) -> None:
+    def __init__(self, *args, triangle_height=None) -> None:
         self._height = triangle_height
         super().__init__(*args)
 
@@ -72,7 +72,8 @@ class CornerSlice(Slice):
     _short_base: float = None
     _num_of_vertices: int = 5
 
-    def __init__(self, *args, corner_coordinates = None, triangle_height = None, trapezoid_height = None, short_base = None) -> None:
+    def __init__(self, *args, corner_coordinates=None, triangle_height=None, trapezoid_height=None,
+                 short_base=None) -> None:
         self._corner_coordinates = corner_coordinates
         self._triangle_height = triangle_height
         self._trapezoid_height = trapezoid_height
@@ -107,7 +108,7 @@ class EndCornerSlice(CornerSlice):
 class TwoCornerSlice(CornerSlice):
     _second_corner_coordinates: list[float] = None
 
-    def __init__(self, *args, second_corner_coordinates = None, **kwargs) -> None:
+    def __init__(self, *args, second_corner_coordinates=None, **kwargs) -> None:
         self._second_corner_coordinates = second_corner_coordinates
         super().__init__(*args, **kwargs)
 
@@ -126,7 +127,7 @@ class TrapezoidSlice(Slice):
     _short_base: float = None
     _num_of_vertices: int = 4
 
-    def __init__(self, *args, trapezoid_height = None, short_base = None) -> None:
+    def __init__(self, *args, trapezoid_height=None, short_base=None) -> None:
         self._height = trapezoid_height
         self._short_base = short_base
         super().__init__(*args)
